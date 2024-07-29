@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Skill_data = [
   {
     skill_name: "Html 5",
@@ -84,14 +86,17 @@ export const Socials = [
   {
     name: "Discord",
     src: "/instagram.svg",
+    link: "https://www.instagram.com/huzaaaaaiiiffaaaa/"
   },
   {
     name: "Facebook",
-    src: "/facebook.svg",
+    src: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/huzaifa-afzal-303397242/"
   },
   {
     name: "Instagram",
     src: "/discord.svg",
+    link: "https://discord.com/users/cloudex_750"
   },
 ];
 
