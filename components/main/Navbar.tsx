@@ -13,11 +13,11 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-3 sm:px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-0 md:px-[10px]">
         <a
           href="#about-me"
-          className="h-auto w-auto flex flex-row items-center"
+          className="h-auto w-auto flex flex-row items-center -ml-3 sm:ml-0"
         >
           <Image
             src="/NavLogo.png"
@@ -26,7 +26,7 @@ export const Navbar = () => {
             height={70}
             className="cursor-pointer hover:animate-slowspin"
           />
-          <span className="font-bold ml-[10px] block text-gray-300">
+          <span className="font-bold -ml-1 sm:ml-[10px] block text-gray-300">
             WebChain Dev
           </span>
         </a>
@@ -67,7 +67,7 @@ export const Navbar = () => {
             />
           </button>
           {isMenuOpen && (
-            <div className="absolute top-14 right-0 text-center bg-[#0300145e] border border-[#7042f861] rounded-lg shadow-lg p-4 flex flex-col items-center space-y-2 z-40 gap-2 min-w-[150px]">
+            <div className="absolute top-14 right-0 text-center bg-[#030014d0] border border-[#7042f861] rounded-lg shadow-lg p-4 flex flex-col items-center space-y-2 z-40 gap-2 min-w-[150px]">
               <a href="#about-me" className="cursor-pointer text-gray-200">
                 About me
               </a>

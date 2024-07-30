@@ -10,7 +10,7 @@ export const Encryption = () => {
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
+          className="text-2xl sm:text-[40px] font-medium text-center text-gray-200"
         >
           Performance
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -21,7 +21,7 @@ export const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
+      <div className="flex flex-col items-center justify-center absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
           <Image
             src="/LockTop.png"
@@ -44,7 +44,7 @@ export const Encryption = () => {
         </div>
       </div>
 
-      <div className="absolute z-20 bottom-[10px] p-[5px]">
+      <div className="absolute z-20 bottom-[10px] p-[5px] px-12 sm:px-0">
         <div className="cursive text-[20px] font-medium text-center text-gray-300">
           Secure your data with end-to-end encryption
         </div>
