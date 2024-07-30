@@ -57,7 +57,7 @@ export const Encryption = () => {
           autoPlay
           playsInline
           preload="false"
-          className="w-full h-auto"
+          className="w-full h-full md:h-auto"
           src="/encryption.webm"
         />
       </div>

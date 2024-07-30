@@ -5,7 +5,7 @@ import { SkillsText } from '../sub/SkillsText'
 
 export const Skills = () => {
   return (
-    <section id="skills" className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20'
+    <section id="skills" className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20 z-[1]'
     style={{transform: "scale(0.9)"}}
     >
 
@@ -71,8 +71,8 @@ export const Skills = () => {
           ))}
         </div>
 
-        <div className='w-full h-full absolute'>
-          <div className='w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover'>
+        <div className='w-full h-full absolute z-[-10]'>
+          <div className='w-full h-full opacity-30 absolute flex items-center justify-center bg-cover'>
             <video 
             className='w-full h-auto'
             preload='false'

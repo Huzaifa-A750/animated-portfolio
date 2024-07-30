@@ -9,7 +9,7 @@ interface Props {
 
 export const ProjectCards = ({ src, title, description }: Props) => {
   return (
-    <div className='relative overflow-hidden rounded-lg border border-[#2A0E61] shadow-2xl shadow-purple-700'>
+    <div className='cursor-pointer relative overflow-hidden rounded-lg border border-[#2A0E61] shadow-2xl hover:shadow-purple-700 transition-all duration-500'>
       <Image 
         src={src}
         alt={title}
